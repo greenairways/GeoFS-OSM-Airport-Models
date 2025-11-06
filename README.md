@@ -21,6 +21,10 @@ Additionally you can also paste it into your browser console
 
 United 737-700 taxiing at IAD
 
+## Contribution
+
+There is a guide for how to contribute to the addon. Open ContributionGuide.md
+
 ## Contact
 
 Contact thegreen121 on Discord for communication
