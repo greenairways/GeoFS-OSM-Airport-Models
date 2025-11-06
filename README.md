@@ -7,6 +7,7 @@ These models are very basic but do the job in lack of any building
 
 ## List of airports
 - Washington Dulles International Airport (IAD/KIAD)
+- Seattle-Tacoma International Airport Concourse N (SEA/KSEA)
 ## How to install
 
 Click on the file that says "Userscript.js"
