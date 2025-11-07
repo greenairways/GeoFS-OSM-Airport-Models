@@ -21,9 +21,10 @@ Additionally you can also paste it into your browser console
 
 ## Images
 
-[United 737 taxiing at IAD](https://i.ibb.co/HpM5Cdcv/image.png)
+![United 737 taxiing at IAD](https://i.ibb.co/HpM5Cdcv/image.png)
 United 737-700 taxiing at IAD
-[American A321ceo leaving the gates at DCA](https://i.ibb.co/jvDdqg1x/Screenshot-2025-11-06-191252.png)
+
+![American A321ceo leaving the gates at DCA](https://i.ibb.co/jvDdqg1x/Screenshot-2025-11-06-191252.png)
 American A321ceo leaving the gates at DCA
 ## Contribution
 
