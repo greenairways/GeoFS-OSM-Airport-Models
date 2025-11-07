@@ -5,9 +5,12 @@ Adds basic OSM models to airports that are missing buildings
 
 These models are very basic but do the job in lack of any building
 
+Additonally there are some custom contributed models that are very detailed
+
 ## List of airports
 - Washington Dulles International Airport (IAD/KIAD)
 - Seattle-Tacoma International Airport Concourse N (SEA/KSEA)
+- Ronald Reagan Washington National Airport Terminal B (DCA/KDCA)
 ## How to install
 
 Click on the file that says "Userscript.js"
@@ -20,6 +23,7 @@ Additionally you can also paste it into your browser console
 
 ![United 737 taxiing at IAD](https://i.ibb.co/HpM5Cdcv/image.png)
 United 737-700 taxiing at IAD
+
 
 ## Contribution
 
