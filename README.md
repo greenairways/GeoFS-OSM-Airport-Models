@@ -7,10 +7,9 @@ These models are very basic but do the job in lack of any building
 
 Additonally there are some custom contributed models that are very detailed
 
-## List of airports
-- Washington Dulles International Airport (IAD/KIAD)
-- Seattle-Tacoma International Airport Concourse N (SEA/KSEA)
-- Ronald Reagan Washington National Airport Terminal B (DCA/KDCA)
+# THIS ADDON WILL AUTO UPDATE
+## Changelog and list coming soon
+
 ## How to install
 
 Click on the file that says "Userscript.js"
