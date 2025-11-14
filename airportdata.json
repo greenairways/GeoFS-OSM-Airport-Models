@@ -18,15 +18,6 @@
         "scale": 1
     },
     {
-        "name": "KDCA - Ronald Reagan Washington National Airport",
-        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/KDCA.gltf",
-        "lat": 38.85586,
-        "lon": -77.04295,
-        "alt": 2,
-        "heading": 90,
-        "scale": 1
-    },
-    {
         "name": "MPTO - Tocumen International Airport",
         "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/MPTO.gltf",
         "lat": 9.065905404893488,
