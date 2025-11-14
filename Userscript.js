@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         GeoFS Extra OSM Airport Models
+// @name         GeoFS OSM Airport Models (JSON Loader)
 // @namespace    geofs-custom
-// @version      1.3
+// @version      1.3.5
 // @description  Loads airport building models from an external JSON file
 // @author       thegreen121 (GXRdev)
 // @match        *://www.geo-fs.com/*
@@ -12,7 +12,7 @@
     "use strict";
 
     // URL of external JSON config
-    const JSON_URL = "https://cdn.jsdelivr.net/gh/greenairways/GeoFS-OSM-Airport-Models@latest/airportdata.json";
+    const JSON_URL = "https://raw.githubusercontent.com/greenairways/GeoFS-OSM-Airport-Models/refs/heads/main/airportdata.json";
 
     // Wait for GeoFS + Cesium
     const checkInterval = setInterval(() => {
