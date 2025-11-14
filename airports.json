@@ -1,56 +1,56 @@
 [
-        {
-            name: "KIAD - Washington Dulles International Airport",
-            modelUrl: "https://cdn.jsdelivr.net/gh/greenairways/test@latest/IADFINAL1.gltf",
-            lat: 38.947265,
-            lon: -77.448265,
-            alt: 86.5,
-            heading: 90,
-            scale: 10
-        },
-        {
-            name: "KSEA - Seattle-Tacoma International Airport",
-            modelUrl: "https://cdn.jsdelivr.net/gh/greenairways/KSEA-models-for-GeoFS-Airport-Buildings-Addon@latest/KSEA.gltf",
-            lat: 47.44862,
-            lon: -122.30257,
-            alt: 114,
-            heading: 90,
-            scale: 1
-        },
-        {
-            name: "KDCA - Ronald Reagan Washington National Airport",
-            modelUrl: "https://cdn.jsdelivr.net/gh/greenairways/test@latest/KDCA.gltf",
-            lat: 38.85586,
-            lon: -77.04295,
-            alt: 2,
-            heading: 90,
-            scale: 1
-        },
-        {
-            name: "MPTO - Tocumen International Airport",
-            modelUrl: "https://cdn.jsdelivr.net/gh/greenairways/test@latest/MPTO.gltf",
-            lat: 9.065905404893488,
-            lon: -79.38832255804911,
-            alt: 15,
-            heading: 90,
-            scale: 10
-        },
-        {
-            name: "KDEN - Denver International Airport",
-            modelUrl: "https://cdn.jsdelivr.net/gh/greenairways/test@latest/KDEN.gltf",
-            lat: 39.85433416818762,
-            lon: -104.67379311938643,
-            alt: 1643,
-            heading: 90,
-            scale: 1
-        },
-        {
-            name: "BUFFER",
-            modelUrl: "https://cdn.jsdelivr.net/gh/BUFFER/BUFFER@latest/BUFFER.gltf",
-            lat: 0,
-            lon: 0,
-            alt: 0,
-            heading: 0,
-            scale: 1
-        }
-    ]
+    {
+        "name": "KIAD - Washington Dulles International Airport",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/IADFINAL1.gltf",
+        "lat": 38.947265,
+        "lon": -77.448265,
+        "alt": 86.5,
+        "heading": 90,
+        "scale": 10
+    },
+    {
+        "name": "KSEA - Seattle-Tacoma International Airport",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/KSEA-models-for-GeoFS-Airport-Buildings-Addon@latest/KSEA.gltf",
+        "lat": 47.44862,
+        "lon": -122.30257,
+        "alt": 114,
+        "heading": 90,
+        "scale": 1
+    },
+    {
+        "name": "KDCA - Ronald Reagan Washington National Airport",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/KDCA.gltf",
+        "lat": 38.85586,
+        "lon": -77.04295,
+        "alt": 2,
+        "heading": 90,
+        "scale": 1
+    },
+    {
+        "name": "MPTO - Tocumen International Airport",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/MPTO.gltf",
+        "lat": 9.065905404893488,
+        "lon": -79.38832255804911,
+        "alt": 15,
+        "heading": 90,
+        "scale": 10
+    },
+    {
+        "name": "KDEN - Denver International Airport",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/KDEN.gltf",
+        "lat": 39.85433416818762,
+        "lon": -104.67379311938643,
+        "alt": 1643,
+        "heading": 90,
+        "scale": 1
+    },
+    {
+        "name": "BUFFER",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/BUFFER/BUFFER@latest/BUFFER.gltf",
+        "lat": 0,
+        "lon": 0,
+        "alt": 0,
+        "heading": 0,
+        "scale": 1
+    }
+]
