@@ -36,6 +36,15 @@
         "scale": 1
     },
     {
+        "name": "BIKF - Keflavik International Airport",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/Test2@latest/BIKF.gltf",
+        "lat": 63.995032515,
+        "lon": -22.6271945826,
+        "alt": 41,
+        "heading": 180,
+        "scale": 25
+    },
+    {
         "name": "BUFFER",
         "modelUrl": "https://cdn.jsdelivr.net/gh/BUFFER/BUFFER@latest/BUFFER.gltf",
         "lat": 0,
