@@ -19,7 +19,7 @@ This guide will show you how to import your own custom model, or use OSM data an
 - In the main program, click **File > Open OSM file**, and use the file explorer to find your OSM file.
 - Click **export as GLB** and choose the directory and file name, then click save. The file should show up in the directory you selected.
 
-## Step 3 - Importing the 3D model into Blender
+## STEP 3 - Importing into Blender
 > [!TIP]
 > If you don't have Blender, you can download it [here](https://www.blender.org/download/).
 - Open Blender. There are default objects there already, but you can remove them by clicking the 3D window, press [A], and then press [DELETE] on your keyboard.
@@ -28,14 +28,14 @@ This guide will show you how to import your own custom model, or use OSM data an
 > [!IMPORTANT]
 > When deleting, make sure to right-click the section you want to delete and click **Delete Hierarchy**. You should just have the terminal building remaining.
 
-## Step 4 - Exporting the model
+## STEP 4 - Exporting the Model
 - Click **File > Export > glTF 2.0**, andd change **glTF binary** to **glTF seperate**.
 - Choose your path you want to export the file in, and the file name.
 - Click export, and it should show up in the directory you selected. You should see (your file name).gltf, (your file name).bin, and some images.
 > [!WARNING]
 The file will NOT export if it is **larger than 20 megabytes**. Please contact **thegreen121** on Discord if the file is larger than 20 MB.
 
-## STEP 5 - Importing into  GitHub and glTF Editing
+## STEP 5 - Importing into GitHub and glTF Editing
 > [!TIP]
 > If you don't have a Github Account, you can create one [here](https://github.com/signup).
 - Create a new repository, and if it isn't already public, make it so. A detailed turotial can be found [here](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility).
@@ -106,6 +106,7 @@ The file will NOT export if it is **larger than 20 megabytes**. Please contact *
       },
 
 - Click **Commit changes** to save your changes.
+
 ## STEP 6 - Importing and Testing
 - Go to https://github.com/greenairways/GeoFS-OSM-Airport-Models, and install CustomModelLoader.js.
 - In Tampermonkey, scroll down to const modelUrl = "https://cdn.jsdelivr.net/gh/username/repositoryname@latest/filename";
@@ -128,7 +129,8 @@ The file will NOT export if it is **larger than 20 megabytes**. Please contact *
 - Adjust values until you are satisifed with the results. It may take some time to get the desired results.
 >[!IMPORTANT]
 >Remember to hit **Save** ***every time*** you edit the file.
-## Step 7 - Submission
+
+## StEP 7 - Submission
 - Go to https://github.com/greenairways/GeoFS-OSM-Airport-Models/issues and create a new issue using the **Import Request** template, using the format below for your submisssion
 
   		{
