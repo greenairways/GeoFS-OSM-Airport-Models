@@ -4,8 +4,10 @@
 // @version      1
 // @description  Loads airport building models from an external JSON file
 // @author       thegreen121 (GXRdev)
-// @match        *://www.geo-fs.com/*
+// @match        https://www.geo-fs.com/geofs.php*
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/greenairways/GeoFS-OSM-Airport-Models/main/Userscript.js
+// @downloadURL  https://raw.githubusercontent.com/greenairways/GeoFS-OSM-Airport-Models/main/Userscript.js
 // ==/UserScript==
 
 (function () {
