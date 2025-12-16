@@ -1,35 +1,37 @@
 # Contribution Guide
 This guide will show you how to import your own custom model or use OSM data and import it. It will take roughly 40 minutes to read and follow through, so please free up some time in advance. **PLEASE, READ IT CAREFULLY. DO NOT SKIM THROUGH THIS.**
 
-## STEP 1 - Acquiring the OpenStreetMap Model (Skip if you already have a model)
+## STEP 1 - Acquiring OpenStreetMap Model (Skip if you already have a model)
 - Go to [OpenStreetMap](https://www.openstreetmap.org/) and search for the airport you want to add.
 - Use the **export** button in the top bar to open the export sidebar, then click **Manually Select a Different Area**.
 - Select the building(s) you want to export. **Only select the terminal(s) and/or other airport buildings.**
 - Click export, and it should download **map.osm** to your computer.
 
 ## STEP 2 - Converting OSM Data to 3D Data (Skip if you already have a model)
-- Download the [OSM2World app](https://osm2world.org/download/files/latest/OSM2World-latest-bin.zip) and open **osm2world-windows.bat**. It should open a command line and shortly after, open the main program of the app.
+- Download the [OSM2World app](https://osm2world.org/download/files/latest/OSM2World-latest-bin.zip) and open **osm2world-windows.bat**. It should open a command line and  the main program of the app.
 - In the main program, click **File > Open OSM file**, and use the file explorer to find your OSM file.
 - Click **export as GLB** and choose the directory and file name, then click save. The file should show up in the directory you selected.
 
-## STEP 3 - Importing into Blender
+## STEP 3 - Importing into Blender & Simplifying
 - Download [Blender](https://www.blender.org/download).
 - Open Blender. There are default objects already; remove them by clicking the 3D window, pressing [A], and then pressing [DELETE] on your keyboard.
 - Click **File > Import > glTF 2.0** and open your GLB file. If you are using an OSM model, you will also see other details around (e.g, flat lines on the ground).
-- On the top-right, you will see the scene collection area. Expand the **OSM2World scene**. You should see lots of parts. We only need the terminal building, so we need to delete everything else, **including the interior of the building you wish to keep**, as there is a file size limit.
-> [!TIP]
-> When deleting, right-click the section you want to delete and click **Delete Hierarchy**. You should only have the terminal building remaining.
+- On the top-right, you will see the scene collection area. Expand the **OSM2World scene**. We only need the terminal building, so you need to delete everything else, **including the interior of the buildings to be kept**. This can be done by right-clicking the section and clicking **Delete Hierarchy**.
+
+> [!WARNING]
+> The file will NOT export if it is **larger than 20 megabytes**.
+
 - Click **File > Export > glTF 2.0**, andd change **glTF binary** to **glTF seperate**.
 - Choose the path you want to export the file to, and the file name, then click **export**. You should see a .gltf file, a .bin file, and some images in the exported files.
-> [!WARNING]
-The file will NOT export if it is **larger than 20 megabytes**.
 
-## STEP 4 - Importing into GitHub and glTF Editing
+## STEP 4 - Importing into GitHub & glTF Editing
 - Create a GitHub account [here](https://github.com/signup/).
 - Create a new repository, and if it isn't already public, make it so. A detailed tutorial can be found [here](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility).
-- Navigate to the main page of the repository, and above the list of files, select **Add file > Upload files**, and upload the file from Step 4. Then click **Commit Changes**. A tutorial can be found [here](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
+- Navigate to the main page of the repository, and above the list of files, select **Add file > Upload files**, and upload the file from Step 4. Then click **Commit Changes**. A tutorial can be found [here](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository).
+
 > [!CAUTION]
 > **DO NOT** move or import the file into a folder in the repository, or it will not work.
+
 - Open the file you just uploaded to the repository and click the pencil icon to open the file editor.
 - Use [CTRL] + [F] ([COMMAND] + [F] for MacOS) to open find. Search "images", and click next. It should scroll down to a section where you should be seeing items in this format:
 
