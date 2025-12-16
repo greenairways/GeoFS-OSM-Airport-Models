@@ -1,11 +1,9 @@
 # GeoFS OSM Airport Models
 This add-on adds basic OpenStreetMap models to airports with missing buildings and terminals. The models are generic, but are great for filling in missing buildings.
-Additionally, we also have custom user-contributed models that are  highly detailed.
+Additionally, we also have custom user-contributed models that are highly detailed.
 
-P.S.: Please also visit [greenairways](https://flygxr.com).
+<sub>P.S.: Please also visit [our website](https://flygxr.com).</sub>
 
-# THIS ADDON WILL AUTO UPDATE
-## Changelog and list coming soon
 ## How to Use This Add-on?
 There are two ways to do this. One of them is easy but is quite annoying, while the other one is complicated but only needs to be done once.
 ### Method 1: JavaScript Console
