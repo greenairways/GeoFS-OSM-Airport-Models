@@ -1,26 +1,26 @@
 # Contribution Guide
-This guide will show you how to import your own custom model or use OSM data and import it. It will take 15 minutes to 1 hour to read, so please free up some time in advance. **PLEASE, DO NOT SKIM THROUGH THIS. READ IT CAREFULLY.**
+This guide will show you how to import your own custom model or use OSM data and import it. It will take roughly 40 minutes to read and follow through, so please free up some time in advance. **PLEASE, READ IT CAREFULLY. DO NOT SKIM THROUGH THIS.**
 
 ## STEP 1 - Acquiring the OpenStreetMap Model (Skip if you already have a model)
-- Go to https://www.openstreetmap.org/ and search for the airport you want to add to the add-on.
+- Go to [OpenStreetMap](https://www.openstreetmap.org/) and search for the airport you want to add.
 - Use the **export** button in the top bar to open the export sidebar, then click **Manually Select a Different Area**.
-- Circle the area where you want to export the buildings. **Only export the terminals and/or other airport buildings.**
-- Click export, and it should download a **map.osm** file to your computer.
+- Select the building(s) you want to export. **Only select the terminal(s) and/or other airport buildings.**
+- Click export, and it should download **map.osm** to your computer.
 
 ## STEP 2 - Converting OSM Data to 3D Data (Skip if you already have a model)
-- Download the [OSM2World app](https://osm2world.org/download/files/latest/OSM2World-latest-bin.zip) and open the **osm2world-windows.bat** file. It should open a command line and shortly after, open the main program of the app.
+- Download the [OSM2World app](https://osm2world.org/download/files/latest/OSM2World-latest-bin.zip) and open **osm2world-windows.bat**. It should open a command line and shortly after, open the main program of the app.
 - In the main program, click **File > Open OSM file**, and use the file explorer to find your OSM file.
 - Click **export as GLB** and choose the directory and file name, then click save. The file should show up in the directory you selected.
 
 ## STEP 3 - Importing into Blender
 - Download [Blender](https://www.blender.org/download).
-- Open Blender. There are default objects there already, but you can remove them by clicking the 3D window, pressing [A], and then pressing [DELETE] on your keyboard.
-- In the top-left, click **File > Import > glTF 2.0** and open your GLB file. If you are using an OSM model, you will most likely also see other details around (e.g, flat lines on the ground).
-- On the top right-hand side, you will see the scene collection area. Expand the **OSM2World scene**. You should see lots of parts. We only need the terminal building, so we need to delete everything else, **including the interior of the building you wish to keep**, as there is a file size limit.
+- Open Blender. There are default objects already; remove them by clicking the 3D window, pressing [A], and then pressing [DELETE] on your keyboard.
+- Click **File > Import > glTF 2.0** and open your GLB file. If you are using an OSM model, you will also see other details around (e.g, flat lines on the ground).
+- On the top-right, you will see the scene collection area. Expand the **OSM2World scene**. You should see lots of parts. We only need the terminal building, so we need to delete everything else, **including the interior of the building you wish to keep**, as there is a file size limit.
 > [!TIP]
 > When deleting, right-click the section you want to delete and click **Delete Hierarchy**. You should only have the terminal building remaining.
 - Click **File > Export > glTF 2.0**, andd change **glTF binary** to **glTF seperate**.
-- Choose the path you want to export the file to, and the file name, then click **export**. You should see (file name).gltf, (file name).bin, and some images in the exported file.
+- Choose the path you want to export the file to, and the file name, then click **export**. You should see a .gltf file, a .bin file, and some images in the exported files.
 > [!WARNING]
 The file will NOT export if it is **larger than 20 megabytes**.
 
@@ -32,17 +32,17 @@ The file will NOT export if it is **larger than 20 megabytes**.
 > **DO NOT** move or import the file into a folder in the repository, or it will not work.
 - Open the file you just uploaded to the repository and click the pencil icon to open the file editor.
 - Use [CTRL] + [F] ([COMMAND] + [F] for MacOS) to open find. Search "images", and click next. It should scroll down to a section where you should be seeing items in this format:
+
 		{
 			"mimeType":"image/jpeg",
 			"name":"Image_9",
 			"uri":"Image_9.jpg"
 		},
-- In the last box, replace **Image_9.jpg** with https://cdn.jsdelivr.net/gh/yourusername/repositoryname@latest/imagename.jpg
-> [!NOTE]
-> Replace yourusername with your GitHub username, repositoryname with your GitHub repository name, and imagename.jpg with your file name and its file extention (jpg, png, etc)
-- Now find "materials" and scroll down. It should be in this format
-  
-		{
+
+- In the last box, replace **Image_9.jpg** with https://cdn.jsdelivr.net/gh/username/repoitory@latest/image.jpg (Replace `username` with your GitHub username, `repository` with your GitHub repository name, and `image.jpg` with your file name)
+- Now, search for "materials" and scroll down. It should be in this format:
+
+  		{
 			"name":"Plaster002",
 			"normalTexture":{
 				"index":0
@@ -61,7 +61,7 @@ The file will NOT export if it is **larger than 20 megabytes**.
 		},
 
 - Replace that with the format below, and fill in the name, normalTexture, occlusionTexture, baseColorTexture, and metallicRoughnessTexture from the existing material.
-- Do this for all the materials in the code. DO NOT CHANGE baseColorFactor, roughnessFactor, and emissiveFactor
+- Do this for all the materials in the code. **DO NOT CHANGE baseColorFactor, roughnessFactor, and emissiveFactor**.
 
       {
         "name": "Plaster002",
