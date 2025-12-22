@@ -35,5 +35,4 @@ American Airlines A321-211 leaving the gates at DCA
 Emirates A380 taking off from DXB (Credit: Featherway)
 
 ## Contact
-Contact thegreen121 on Discord for communication
-
+Contact thegreen121 on Discord for communication.
