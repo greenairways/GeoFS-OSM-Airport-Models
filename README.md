@@ -31,6 +31,9 @@ United Airlines 737-700 taxiing at IAD
 ![American Airlines A321-211 leaving the gates at DCA](https://i.ibb.co/jvDdqg1x/Screenshot-2025-11-06-191252.png)
 American Airlines A321-211 leaving the gates at DCA
 
+![Emirates A380 taking off from DXB](https://i.ibb.co/xSPbNP9f/image-1.png)
+Emirates A380 taking off from DXB (Credit: Featherway)
+
 ## Contact
 Contact thegreen121 on Discord for communication
 
