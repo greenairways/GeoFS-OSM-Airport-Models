@@ -1,5 +1,5 @@
 # Contribution Guide
-This guide will show you how to import your own custom model or use OSM data and import it. It will take roughly 40 minutes to read and follow through, so please free up some time in advance. **PLEASE, READ IT CAREFULLY. DO NOT SKIM THROUGH THIS.**
+This guide will show you how to import your own custom model or use OSM data and import it. It will take roughly 40 minutes to read and follow through, so please free up some time in advance. **PLEASE, READ THIS GUIDE CAREFULLY. DO NOT SKIM THROUGH THIS.**
 
 ## STEP 1 - Acquiring OpenStreetMap Model (Skip if you already have a model)
 - Go to [OpenStreetMap](https://www.openstreetmap.org/) and search for the airport you want to add.
