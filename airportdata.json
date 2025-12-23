@@ -72,24 +72,6 @@
         "scale": 1.26
     },
     {
-        "name": "KDCA - Ronald Reagan Washington National Airport",
-        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/Test2@latest/KDCA.gltf",
-        "lat": 38.85834818475116,
-        "lon": -77.04342301987681,
-        "alt": 5,
-        "heading": 90,
-        "scale": 10
-    },
-    {
-        "name": "OMDB - Dubai International Airport (Credit to GeoFS 3D buildings Addon)",
-        "modelUrl": "https://raw.githubusercontent.com/TotallyRealElonMusk/GeoFS-3D-Buildings/main/3D%20models/dxbgeofs6.5.glb",
-        "lat": 25.2532,
-        "lon": 55.3595,
-        "alt": 1.950,
-        "heading": 121.5,
-        "scale": 1.26
-    },
-    {
         "name": "BUFFER",
         "modelUrl": "https://cdn.jsdelivr.net/gh/BUFFER/BUFFER@latest/BUFFER.gltf",
         "lat": 0,
