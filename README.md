@@ -40,7 +40,7 @@ New Features:
 * RCTP – Taiwan Taoyuan International Airport (Taipei)
 * VHHX - Hong Kong Kai Tak International Airport (Credit to rdpsitw)
 * VOBL - Bangalore International Airport
-* ZGSZ - Shenzhen Bao'an International Airport
+* ZGSZ - Shenzhen Bao'an International Airport (Credit to MU2731)
 * RJTT - Tokyo Haneda International Airport (Credit to rdpsitw)
   
 </details>
