@@ -180,7 +180,7 @@
     	"scale": 1.20
     },
     {
-    	"name": "RCTP - Taipei",
+    	"name": "RCTP - Taiwan Taoyuan",
     	"modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/RCTP/RCTP.gltf",
     	"lat": 25.078294,
     	"lon": 121.232067,
@@ -189,16 +189,16 @@
     	"scale": 1.00
     },
     {
-    	"name": "Kai Tak",
-    	"modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@main/TAKTAKTAKTAK.glb",
-    	"lat": 22.317120,
-    	"lon": 114.206680,
-    	"alt": 28.15,
-    	"heading": 133.5,
+    	"name": "VHHH - Hong Kong Kai Tak",
+    	"modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/vhhh-hkg@main/VHHXforrelease.glb",
+    	"lat": 22.315790,
+    	"lon": 114.206689,
+    	"alt": 2.25,
+    	"heading": 0.0,
     	"scale": 1.00
     },
     {
-        "name": "ZGSZ",
+        "name": "ZGSZ - Shenzhen Bao'an",
         "modelUrl": "https://cdn.jsdelivr.net/gh/Aviation2731/Geofs-Airport-model-ZGSZ@latest/深圳宝安.blend-1.glb",
         "lat": 22.631326,
         "lon": 113.806264,
@@ -279,7 +279,7 @@
 	    "scale": 1.00
 	},
 	{
-        "name": "RJTT",
+        "name": "RJTT - Tokyo Haneda",
         "modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/rjtt-t1@main/RJTTforexport.glb",
         "lat": 35.548851,
         "lon": 139.784042,
