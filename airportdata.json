@@ -85,7 +85,16 @@
         "modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/zspd-t1@latest/Untitled1.glb",
         "lat": 31.151350,
         "lon": 121.797810,
-        "alt": 3.75,
+        "alt": 3.7,
+        "heading": 0.0,
+        "scale": 1.00
+    },
+	{
+	"name": "ZSPD Tower",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/zspd-t1@main/tower.glb",
+        "lat": 31.143736,
+        "lon": 121.802243,
+        "alt": 3.5,
         "heading": 0.0,
         "scale": 1.00
     },
