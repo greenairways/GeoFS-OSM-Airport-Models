@@ -288,6 +288,15 @@
 	    "scale": 1.00
 	},
 	{
+    	"name": "VOBL9",
+    	"modelUrl": "https://cdn.jsdelivr.net/gh/SpeedBird4284/GeoFS-3D-buildings@main/Water tank + Plane spotter.glb",
+    	"lat": 13.210214,
+    	"lon": 77.719833,
+    	"alt": 895.60,
+    	"heading": 115.5,
+    	"scale": 1.00
+	},
+	{
         "name": "RJTT - Tokyo Haneda",
         "modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/rjtt-t1@main/RJTTforexport.glb",
         "lat": 35.548851,
