@@ -5,6 +5,7 @@
 // @description  Loads airport building models from an external JSON file with smart distance/altitude unloading (minimumPixelSize fixed)
 // @author       thegreen121 (GXRdev)
 // @match        *://www.geo-fs.com/*
+// @match        *://www.beta.geo-fs.com/*
 // @grant        none
 // ==/UserScript==
 
