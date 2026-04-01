@@ -81,7 +81,7 @@
     	"scale": 0.63
     },
     {
-	"name": "ZSPD Terminal One - Credit to rdpsitw",
+	"name": "ZSPD Terminal 1 - Credit to rdpsitw",
         "modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/zspd-t1@latest/Untitled1.glb",
         "lat": 31.151350,
         "lon": 121.797810,
@@ -328,15 +328,6 @@
         "modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/vhhh-hkg@main/VHHHforreleaseV7.glb",
     	"lat": 22.313954,
     	"lon": 113.930337,
-    	"alt": 3.55,
-        "heading": 0.0,
-        "scale": 1.00
-    },
-	{
-        "name": "VHHH - ATC Tower",
-        "modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/vhhh-hkg@main/vhhhtower.glb",
-    	"lat": 22.310617,
-    	"lon": 113.921388,
     	"alt": 3.55,
         "heading": 0.0,
         "scale": 1.00
