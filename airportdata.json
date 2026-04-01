@@ -333,6 +333,15 @@
         "scale": 1.00
     },
 	{
+        "name": "VHHH - ATC Tower",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/vhhh-hkg@main/vhhhtower.glb",
+    	"lat": 22.310617,
+    	"lon": 113.921388,
+    	"alt": 3.55,
+        "heading": 0.0,
+        "scale": 1.00
+    },
+	{
         "name": "BUFFER",
         "modelUrl": "https://cdn.jsdelivr.net/gh/BUFFER/BUFFER@latest/BUFFER.gltf",
         "lat": 0,
