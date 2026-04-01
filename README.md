@@ -42,6 +42,7 @@ New Features:
 * VOBL - Bangalore International Airport
 * ZGSZ - Shenzhen Bao'an International Airport (Credit to MU2731)
 * RJTT - Tokyo Haneda International Airport (Credit to rdpsitw)
+* VHHH - Hong Kong International Airport (Credit to rdpsitw)
   
 </details>
 
