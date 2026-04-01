@@ -325,19 +325,10 @@
     },
 	{
         "name": "VHHH - Hong Kong International Airport",
-        "modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/vhhh-hkg@main/VHHHforrelease.glb",
-    	"lat": 22.314079,
-    	"lon": 113.930696,
-    	"alt": 3.80,
-        "heading": 0.0,
-        "scale": 1.00
-    },
-	{
-        "name": "VHHH - Hong Kong International Airport (Satellite concourse)",
-        "modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/vhhh-hkg@main/Skybridge.glb",
-    	"lat": 22.314108,
-    	"lon": 113.930798,
-    	"alt": 3.90,
+        "modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/vhhh-hkg@main/VHHHforreleaseV7.glb",
+    	"lat": 22.313954,
+    	"lon": 113.930337,
+    	"alt": 3.55,
         "heading": 0.0,
         "scale": 1.00
     },
