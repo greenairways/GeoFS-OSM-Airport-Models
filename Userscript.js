@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         GeoFS OSM Airport Models (JSON Loader)
+// @name         GeoFS OSM Airport Models (JSON Loader with UI)
 // @namespace    geofs-custom
 // @version      Auto
-// @description  Loads airport building models from an external JSON file with smart distance/altitude unloading (minimumPixelSize fixed)
+// @description  Loads airport building models from an external JSON file with smart distance/altitude unloading and a Montserrat font toggle panel.
 // @author       thegreen121 (GXRdev)
 // @match        *://www.geo-fs.com/*
 // @grant        none
@@ -21,6 +21,37 @@
     const MAX_SCALE = 20;
 
     const loadedModels = [];
+
+    // Use Montserrat as Panel Font 🤓
+    const link = document.createElement('link');
+    link.href = 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap';
+    link.rel = 'stylesheet';
+    document.head.appendChild(link);
+
+    // Panel
+    const panel = document.createElement('div');
+    panel.style = `
+        position: absolute; 
+        top: 10px; 
+        right: 10px; 
+        z-index: 10000;
+        background: rgba(0, 0, 0, 0.8); 
+        color: white; 
+        padding: 12px;
+        border-radius: 4px; 
+        font-family: 'Montserrat', sans-serif; 
+        font-size: 13px;
+        max-height: 50vh; 
+        overflow-y: auto; 
+        width: 240px; 
+        border: 1px solid #555;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    `;
+    panel.innerHTML = `<div style="font-weight: 700; margin-bottom: 10px; border-bottom: 1px solid #444; padding-bottom: 5px; display: flex; justify-content: space-between;">
+        <span>Airport Models</span>
+        <span style="font-size: 10px; color: #888; font-weight: 400;">JSON LOADER</span>
+    </div>`;
+    document.body.appendChild(panel);
 
     // Wait for GeoFS + Cesium
     const checkInterval = setInterval(() => {
@@ -81,11 +112,36 @@
             }
         });
 
-        loadedModels.push({
+        const modelObj = {
             entity,
             lat,
-            lon
-        });
+            lon,
+            userToggle: true 
+        };
+
+        loadedModels.push(modelObj);
+
+        // --- Add Toggle to Panel ---
+        const item = document.createElement('div');
+        item.style = "margin-bottom: 6px; display: flex; align-items: center; cursor: pointer;";
+        
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.checked = true;
+        checkbox.style = "margin-right: 10px; cursor: pointer;";
+        checkbox.onclick = (e) => {
+            modelObj.userToggle = e.target.checked;
+        };
+
+        const label = document.createElement('span');
+        // 缩短超长名称并应用字体样式
+        label.innerText = name.length > 25 ? name.substring(0, 25) + "..." : name;
+        label.title = name;
+        label.style = "white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 400;";
+
+        item.appendChild(checkbox);
+        item.appendChild(label);
+        panel.appendChild(item);
 
         console.log(`✅ Loaded model: ${name} (scale: ${safeScale})`);
     }
@@ -103,6 +159,7 @@
             const distanceNm = getDistanceNM(acLat, acLon, m.lat, m.lon);
 
             const shouldShow =
+                m.userToggle &&
                 acAltFt <= MAX_ALTITUDE_FT &&
                 distanceNm <= MAX_DISTANCE_NM;
 
