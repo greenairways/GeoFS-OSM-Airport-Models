@@ -332,6 +332,15 @@
         "heading": 0.0,
         "scale": 1.00
     },
+    {
+    	"name": "Stuttgart",
+    	"modelUrl": "https://cdn.jsdelivr.net/gh/Myklischa/Stuttgart@latest/stuttgartphoto.glb",
+    	"lat": 48.691770,
+    	"lon": 9.217180,
+    	"alt": 391.0,
+    	"heading": 74.0,
+    	"scale": 0.46
+	},
 	{
         "name": "BUFFER",
         "modelUrl": "https://cdn.jsdelivr.net/gh/BUFFER/BUFFER@latest/BUFFER.gltf",
