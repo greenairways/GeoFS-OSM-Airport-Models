@@ -1,0 +1,335 @@
+[
+    {
+        "name": "KIAD - Washington Dulles International Airport",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@main/KIAD/dullesfinal.gltf",
+        "lat": 38.947845,
+        "lon": -77.447495,
+        "alt": 86.5,
+        "heading": 90,
+        "scale": 1
+    },
+    {
+        "name": "KSEA - Seattle-Tacoma International Airport",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/KSEA-models-for-GeoFS-Airport-Buildings-Addon@latest/KSEA.gltf",
+        "lat": 47.44862,
+        "lon": -122.30257,
+        "alt": 114,
+        "heading": 90,
+        "scale": 1
+    },
+    {
+        "name": "MPTO - Tocumen International Airport",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/MPTO.gltf",
+        "lat": 9.065905404893488,
+        "lon": -79.38832255804911,
+        "alt": 15,
+        "heading": 90,
+        "scale": 10
+    },
+    {
+        "name": "KDEN - Denver International Airport",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/KDEN.gltf",
+        "lat": 39.85433416818762,
+        "lon": -104.67379311938643,
+        "alt": 1643,
+        "heading": 90,
+        "scale": 1
+    },
+    {
+        "name": "BIKF - Keflavik International Airport",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/Test2@latest/BIKF.gltf",
+        "lat": 63.995032515,
+        "lon": -22.6271945826,
+        "alt": 41,
+        "heading": 180,
+        "scale": 25
+    },
+    {
+        "name": "OTHH - Doha Hamad International Airport",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/Test2@latest/OTBD.gltf",
+        "lat": 25.259373366116705,
+        "lon": 51.61289969419314,
+        "alt": 1,
+        "heading": 90,
+        "scale": 10
+    },
+    {
+        "name": "KDCA - Ronald Reagan Washington National Airport",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/Test2@latest/KDCA.gltf",
+        "lat": 38.85834818475116,
+        "lon": -77.04342301987681,
+        "alt": 5,
+        "heading": 90,
+        "scale": 10
+    },
+    {
+        "name": "OMDB - Dubai International Airport (Credit to GeoFS 3D buildings Addon)",
+        "modelUrl": "https://raw.githubusercontent.com/TotallyRealElonMusk/GeoFS-3D-Buildings/main/3D%20models/dxbgeofs6.5.glb",
+        "lat": 25.2532,
+        "lon": 55.3595,
+        "alt": 1.950,
+        "heading": 121.5,
+        "scale": 1.26
+    },
+    {
+        "name": "EGLL - London Heathrow International Airport (Credit to GeoFS 3D buildings Addon)",
+    	"modelUrl": "https://140736632-121333684800455631.preview.editmysite.com/uploads/1/4/0/7/140736632/heathrow2.glb",
+    	"lat": 51.467538,
+    	"lon": -0.456035,
+    	"alt": 20.00,
+    	"heading": 90.0,
+    	"scale": 0.63
+    },
+    {
+	"name": "ZSPD Terminal 1 - Credit to rdpsitw",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/zspd-t1@latest/Untitled1.glb",
+        "lat": 31.151350,
+        "lon": 121.797810,
+        "alt": 3.7,
+        "heading": 0.0,
+        "scale": 1.00
+    },
+	{
+	"name": "ZSPD Tower",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/zspd-t1@main/tower.glb",
+        "lat": 31.143736,
+        "lon": 121.802243,
+        "alt": 3.5,
+        "heading": 0.0,
+        "scale": 1.00
+    },
+    {
+   	    "name": "TNCS - Saba Airport - Credit to rdpsitw",
+    	"modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/saba-tncs@latest/saba.glb",
+	    "lat": 17.644620,
+  	    "lon": -63.220790,
+  	    "alt": 28.00,
+ 	    "heading": 0.0,
+  	    "scale": 1.00
+    },
+    {
+    	"name": "VVNB",
+    	"modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/VVNB.gltf",
+    	"lat": 21.216540,
+    	"lon": 105.798852,
+    	"alt": 13.00,
+    	"heading": 90.0,
+    	"scale": 1.00
+    },
+    {
+    	"name": "KLAS",
+    	"modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/KLAS.gltf",
+    	"lat": 36.081477,
+    	"lon": -115.137674,
+    	"alt": 640.00,
+    	"heading": 90.0,
+    	"scale": 1.00
+    },
+    {
+    	"name": "KPHX",
+    	"modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/KPHX/KPHX.gltf",
+    	"lat": 33.435894,
+    	"lon": -111.998054,
+    	"alt": 339.75,
+    	"heading": 90.0,
+    	"scale": 1.00
+    },
+    {
+    	"name": "VIDP - Delhi Airport",
+   	"modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/VIDP/VIDP.gltf",
+    	"lat": 28.563902,
+    	"lon": 77.117308,
+    	"alt": 230.00,
+    	"heading": 90.0,
+    	"scale": 1.00
+    },
+    {
+    	"name": "KBNA - Nashville",
+    	"modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/KBNA/KBNA.gltf",
+    	"lat": 36.126134,
+    	"lon": -86.671760,
+    	"alt": 166.50,
+    	"heading": 90.0,
+    	"scale": 1.00
+    },
+    {
+    	"name": "KMIA",
+    	"modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/KMIA/KMIA.gltf",
+    	"lat": 25.793377,
+    	"lon": -80.277708,
+    	"alt": 5.00,
+    	"heading": 90.0,
+    	"scale": 1.00
+    },
+    {
+    	"name": "KLAX",
+    	"modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/KLAX/KLAX.gltf",
+    	"lat": 33.943660,
+    	"lon": -118.415069,
+    	"alt": 41.08,
+    	"heading": 90.0,
+    	"scale": 1.00
+    },
+    {
+    	"name": "VOCI - Kochi",
+    	"modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/VOCI/VOCI.gltf",
+    	"lat": 10.157171,
+    	"lon": 76.396281,
+    	"alt": 7.50,
+    	"heading": 90.0,
+    	"scale": 1.00
+    },
+    {
+    	"name": "OMAA - Abu Dhabi - Credit to GeoFS 3D buildings addon",
+    	"modelUrl": "https://raw.githubusercontent.com/TotallyRealElonMusk/GeoFS-3D-Buildings/main/3D%20models/auh_8.glb",
+    	"lat": 24.432850,
+    	"lon": 54.644100,
+    	"alt": 15.00,
+    	"heading": 20.0,
+    	"scale": 1.20
+    },
+    {
+    	"name": "RCTP - Taiwan Taoyuan",
+    	"modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/RCTP/RCTP.gltf",
+    	"lat": 25.078294,
+    	"lon": 121.232067,
+    	"alt": 44.00,
+    	"heading": 90.0,
+    	"scale": 1.00
+    },
+    {
+        "name": "ZGSZ - Shenzhen Bao'an",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/Aviation2731/Geofs-Airport-model-ZGSZ@latest/深圳宝安.blend-1.glb",
+        "lat": 22.631326,
+        "lon": 113.806264,
+        "alt": 2.25,
+        "heading": 152.8,
+        "scale": 1.00
+    },
+    {
+        "name": "VOBL1",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/speedbirdfiles/ATC%20tower.glb",
+        "lat": 13.198876,
+        "lon": 77.705320,
+        "alt": 894.90,
+        "heading": 90.0,
+        "scale": 1.00
+    },
+    {
+        "name": "VOBL2",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/speedbirdfiles/DHL%20+%20FedEx%20+%20UPS%20building.glb",
+        "lat": 13.200860,
+        "lon": 77.695280,
+        "alt": 895.54,
+        "heading": 0.0,
+        "scale": 1.02
+    },
+    {
+        "name": "VOBL3",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/speedbirdfiles/Shell%20gas%20station.glb",
+        "lat": 13.199997,
+        "lon": 77.690975,
+        "alt": 896.06,
+        "heading": 180.0,
+        "scale": 1.00
+    },
+	{
+    	"name": "VOBL4",
+    	"modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/speedbirdfiles/IndiGo%20MRO%20VOBL.glb",
+    	"lat": 13.200824,
+    	"lon": 77.686726,
+    	"alt": 909.40,
+    	"heading": 90.0,
+    	"scale": 1.02
+	},
+    {
+        "name": "VOBL5",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/speedbirdfiles/BLUE%20DART%20EXPRESS%20TERMINAL%202%20(TWO).glb",
+        "lat": 13.200524,
+        "lon": 77.694243,
+        "alt": 905.60,
+        "heading": 180.9,
+        "scale": 1.00
+    },
+    {
+        "name": "VOBL6",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/speedbirdfiles/Shell%20gas%20station.glb",
+        "lat": 13.199997,
+        "lon": 77.690975,
+        "alt": 896.06,
+        "heading": 180.0,
+        "scale": 1.00
+    },
+    {
+        "name": "VOBL7",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/speedbirdfiles/BLUE%20DART%20EXPRESS%20TERMINAL%202%20(TWO).glb",
+        "lat": 13.200524,
+        "lon": 77.694243,
+        "alt": 905.60,
+        "heading": 180.9,
+        "scale": 1.00
+    },
+	{
+	    "name": "VOBL8",
+	    "modelUrl": "https://cdn.jsdelivr.net/gh/SpeedBird4284/GeoFS-3D-buildings@main/BIAL Arch + Plane spotting TWR.glb",
+	    "lat": 13.210457,
+	    "lon": 77.719766,
+	    "alt": 895.60,
+	    "heading": 115.5,
+	    "scale": 1.00
+	},
+	{
+    	"name": "VOBL9",
+    	"modelUrl": "https://cdn.jsdelivr.net/gh/SpeedBird4284/GeoFS-3D-buildings@main/Water tank + Plane spotter.glb",
+    	"lat": 13.210214,
+    	"lon": 77.719833,
+    	"alt": 895.60,
+    	"heading": 115.5,
+    	"scale": 1.00
+	},
+	{
+        "name": "RJTT - Tokyo Haneda",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/rjtt-t1@main/RJTTforexport.glb",
+        "lat": 35.548851,
+        "lon": 139.784042,
+        "alt": -2.36,
+        "heading": 0.0,
+        "scale": 1.00
+    },
+	{
+        "name": "RJTT-Tower",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/rjtt-t1@main/RJTTtower3.glb",
+        "lat": 35.551730,
+        "lon": 139.783958,
+        "alt": -2.36,
+        "heading": 0.0,
+        "scale": 1.00
+    },
+	{
+        "name": "EGLL-Tower",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/greenairways/test@latest/speedbirdfiles/lhratc.glb",
+    	"lat": 51.471807,
+    	"lon": -0.465481,
+    	"alt": 24.97,
+        "heading": 0.0,
+        "scale": 1.00
+    },
+    {
+    	"name": "Stuttgart",
+    	"modelUrl": "https://cdn.jsdelivr.net/gh/Myklischa/Stuttgart@latest/stuttgartphoto.glb",
+    	"lat": 48.691770,
+    	"lon": 9.217180,
+    	"alt": 391.0,
+    	"heading": 74.0,
+    	"scale": 0.46
+	},
+	{
+        "name": "BUFFER",
+        "modelUrl": "https://cdn.jsdelivr.net/gh/BUFFER/BUFFER@latest/BUFFER.gltf",
+        "lat": 0,
+        "lon": 0,
+        "alt": 0,
+        "heading": 0,
+        "scale": 1
+    }
+]
