@@ -10,7 +10,7 @@
 (function () {
 "use strict";
 
-const JSON_URL = "https://raw.githubusercontent.com/greenairways/GeoFS-OSM-Airport-Models/refs/heads/main/airportdata.json";
+const JSON_URL = "https://raw.githubusercontent.com/greenairways/GeoFS-OSM-Airport-Models/refs/heads/main/5.6hfix.json";
 
 // ================= SETTINGS =================
 const MAX_ALTITUDE_FT = 18000;
