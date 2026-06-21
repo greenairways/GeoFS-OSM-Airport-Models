@@ -334,7 +334,7 @@
     },
 	{
     	"name": "VHHX - Hong Kong Kai Tak",
-    	"modelUrl": "#https://cdn.jsdelivr.net/gh/rdpsitw/vhhh-hkg@main/VHHXforrelease.glb",
+    	"modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/vhhh-hkg@main/VHHXforrelease.glb",
     	"lat": 22.315790,
     	"lon": 114.206689,
     	"alt": 2.25,
