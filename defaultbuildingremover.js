@@ -32,7 +32,17 @@
         "https://data.geo-fs.com/buildings/11_3347_770.glb",
         "https://data.geo-fs.com/buildings/11_3348_770.glb",
         "https://data.geo-fs.com/buildings/11_3346_771.glb",
-        "https://data.geo-fs.com/buildings/11_3347_771.glb"
+        "https://data.geo-fs.com/buildings/11_3347_771.glb",
+        "https://buffer.buffer.com/buffer.buffer",
+        "https://data.geo-fs.com/buildings/12_6693_1539.glb",
+        "https://data.geo-fs.com/buildings/12_6694_1539.glb",
+        "https://data.geo-fs.com/buildings/12_6695_1539.glb",
+        "https://data.geo-fs.com/buildings/12_6693_1540.glb",
+        "https://data.geo-fs.com/buildings/12_6694_1540.glb",
+        "https://data.geo-fs.com/buildings/12_6695_1540.glb",
+        "https://data.geo-fs.com/buildings/12_6693_1541.glb",
+        "https://data.geo-fs.com/buildings/12_6694_1541.glb",
+        "https://data.geo-fs.com/buildings/12_6695_1541.glb"
     ];
 
     // Helper function to check if a URL should be blocked
