@@ -40,11 +40,11 @@
         "https://data.geo-fs.com/buildings/12_6693_1540.glb",
         "https://data.geo-fs.com/buildings/12_6694_1540.glb",
         "https://buffer.buffer.com/buffer.buffer",
-        "https://data.geo-fs.com/buildings/10_1672_383.glb",
-        "https://data.geo-fs.com/buildings/10_1673_383.glb",
-        "https://data.geo-fs.com/buildings/10_1674_383.glb".
-        "https://data.geo-fs.com/buildings/10_1674_384.glb",
-        "https://data.geo-fs.com/buildings/10_1674_385.glb",
+        "https://data.geo-fs.com/buildings/10_1672_383.glb#",
+        "https://data.geo-fs.com/buildings/10_1673_383.glb#",
+        "https://data.geo-fs.com/buildings/10_1674_383.glb#",
+        "https://data.geo-fs.com/buildings/10_1674_384.glb#",
+        "https://data.geo-fs.com/buildings/10_1674_385.glb#",
         "https://buffer.buffer.com/buffer.buffer"
         
     ];
