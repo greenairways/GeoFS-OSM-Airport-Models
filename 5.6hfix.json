@@ -331,7 +331,7 @@
         "alt": 0,
         "heading": 0,
         "scale": 1
-    }
+    },
 	{
     	"name": "VHHX - Hong Kong Kai Tak",
     	"modelUrl": "https://cdn.jsdelivr.net/gh/rdpsitw/vhhh-hkg@main/VHHXforrelease.glb",
@@ -340,5 +340,5 @@
     	"alt": 2.25,
     	"heading": 0.0,
     	"scale": 1.00
-    },
+    }
 ]
