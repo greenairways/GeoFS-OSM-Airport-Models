@@ -21,8 +21,8 @@
         "https://data.geo-fs.com/buildings/10_1673_385.glb",
         "https://data.geo-fs.com/buildings/10_1672_386.glb",
         "https://data.geo-fs.com/buildings/10_1673_384.glb",
-        "https://data.geo-fs.com/buildings/10_1672_384.glb"
-        "https://data.geo-fs.com/buildings/10_1674_385.glb"
+        "https://data.geo-fs.com/buildings/10_1672_384.glb",
+        "https://data.geo-fs.com/buildings/10_1674_385.glb",
         "https://data.geo-fs.com/buildings/10_1673_386.glb"
     ];
 
