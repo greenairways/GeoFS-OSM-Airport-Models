@@ -19,7 +19,11 @@
         "https://example-another-asset.com/file.glb",
         "https://data.geo-fs.com/some-other-model.glb",
         "https://data.geo-fs.com/buildings/10_1673_385.glb",
-        "https://data.geo-fs.com/buildings/10_1672_386.glb"
+        "https://data.geo-fs.com/buildings/10_1672_386.glb",
+        "https://data.geo-fs.com/buildings/10_1673_384.glb",
+        "https://data.geo-fs.com/buildings/10_1672_384.glb"
+        "https://data.geo-fs.com/buildings/10_1674_385.glb"
+        "https://data.geo-fs.com/buildings/10_1673_386.glb"
     ];
 
     // Helper function to check if a URL should be blocked
