@@ -135,8 +135,5 @@ New Features:
 - In game, go to the desired location and drag the mouse to loose-tune and click the bar and use arrow keys to fine-tune
 - Once it reaches the desired position and scale, copy the output to the clipboard.
 ## Step 7 - Submission
-- Go to https://github.com/greenairways/GeoFS-OSM-Airport-Models/issues and create a new issue
-  - Paste the output you copied in the description
-  - Add the label "Import Sumbission"
-  - Click create issue
+- https://forms.gle/c8gGtg5gCyBqhtQ68 - use this form to submit your model
   ## If you completed all of these steps correctly, your model should load in properly and eventually get added. If there are any problems or you are stuck, contact thegreen121 on Discord.
