@@ -136,4 +136,4 @@ New Features:
 - Once it reaches the desired position and scale, copy the output to the clipboard.
 ## Step 7 - Submission
 - https://forms.gle/c8gGtg5gCyBqhtQ68 - use this form to submit your model
-  ## If you completed all of these steps correctly, your model should load in properly and eventually get added. If there are any problems or you are stuck, contact thegreen121 on Discord.
+  ## If you completed all of these steps correctly, your model should load in properly and eventually get added. If there are any problems or you are stuck, contact thegbx121 on Discord.
