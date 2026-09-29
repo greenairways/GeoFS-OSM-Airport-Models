@@ -62,7 +62,10 @@ There is a guide for how to contribute to the addon. Open ContributionGuide.md
 
 ## Contact
 
-Contact thegbx121 on Discord for communication
+
+https://forms.gle/c8gGtg5gCyBqhtQ68 - this form is the primary means of contact for the addon
+
+Contact thegbx121 on Discord for communication past the form
 
 ## Credits
 - thegreen121 - Main creator, contributor
